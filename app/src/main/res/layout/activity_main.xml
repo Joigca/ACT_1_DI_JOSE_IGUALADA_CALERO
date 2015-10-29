@@ -1,0 +1,112 @@
+<!-- Jose Igualada Calero-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linearLayout"
+    android:background="#666600">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00FFFF"
+        android:id="@+id/linearLayout"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="72dp"
+            android:layout_height="80dp"
+            android:text="Rojo"
+            android:id="@+id/BtnRojo"
+            android:background="#ff0000"
+            android:gravity="top|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="72dp"
+            android:layout_height="80dp"
+            android:text="Verde"
+            android:id="@+id/BtnVerde"
+            android:background="#00ff00"
+            android:gravity="top|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="72dp"
+            android:layout_height="80dp"
+            android:text="Azul"
+            android:id="@+id/BtnAzul"
+            android:background="#0000ff"
+            android:gravity="top|center_horizontal"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:layout_width="72dp"
+            android:layout_height="80dp"
+            android:text="Amarillo"
+            android:id="@+id/BtnAmarillo"
+            android:background="#ffff00"
+            android:gravity="top|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Columna_uno"
+        android:id="@+id/btnCol1"
+        android:layout_marginTop="10dp"
+        android:background="#9900CC"
+        android:layout_weight="0.2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Columna_dos"
+        android:id="@+id/btnCol2"
+        android:layout_marginTop="10dp"
+        android:background="#9900CC"
+        android:layout_weight="0.2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Columna_Tres"
+        android:id="@+id/btnCol3"
+        android:layout_marginTop="10dp"
+        android:background="#9900CC"
+        android:layout_weight="0.2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Columna_cuatro"
+        android:id="@+id/btnCol4"
+        android:layout_marginTop="10dp"
+        android:background="#9900CC"
+        android:layout_weight="0.2" />
+</LinearLayout>
+
